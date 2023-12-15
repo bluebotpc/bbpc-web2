@@ -1,14 +1,18 @@
 ---
-layout: posts
 title:  "Goobs Freight Service"
+layout: splash
 date:   2023-12-12 08:00:00 -0600
 categories: gaming
+permalink: /gfs/
+header:
+  overlay_image: "https://gooby-s3.us-southeast-1.linodeobjects.com/ats_volvo_gloss_mtn.png"
+  actions:
+    - label: "Sign Up!"
+      url: "https://www.worldoftrucks.com/en/profile/154371"
+excerpt: "**Goobs Freight Service** is the **Premier** Freight Haulers in the Western United States!"
 ---
-Goobs Freight Service - an American Truck Simulator Company.
 
-## Drive with Pride
-
-**Goobs Freight Service** is the **Premier** Freight Haulers in the Western United States!
+> an American Truck Simulator Company
 
 ### Pay and Benefits
 
@@ -27,15 +31,7 @@ Goobs Freight Service - an American Truck Simulator Company.
 - Eaton Fuller UltraShift 13 Speed
 - Adaptive Cruise Control
 
-**Heavy Haulers:**
-
-2021 Kenworth W900L
-
-2014 Volvo VNL780
-
-2019 Western Star 49X
-
-### Primary Shipping Hubs
+### Company Terminals
 
 1. Billings, MT
 1. Denver, CO
@@ -43,9 +39,6 @@ Goobs Freight Service - an American Truck Simulator Company.
 1. Portland, OR
 1. Tucson, AZ
 1. Moab, UT
-
-### Secondary Shipping Hubs
-
 1. Alamosa, CO
 1. Monrtose, CO
 1. Coeur d'Alene, ID

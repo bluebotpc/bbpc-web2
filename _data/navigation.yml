@@ -1,9 +1,7 @@
 # main links
 main:
-  - title: "Feed"
-    url: https://www.mattfaulkner.net/
-  - title: "About"
-    url: https://www.mattfaulkner.net/about/
+  - title: "Resume"
+    url: https://goobyfrs.github.io/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

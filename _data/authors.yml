@@ -1,0 +1,17 @@
+Matt Faulkner:
+  name        : "Matt Faulkner"
+  bio         : "Small Business Owner and Senior Infrastructure Operations Technician."
+  avatar      : "/assets/img/profile.jpg"
+  links:
+    - label: "Email Me"
+      icon: "fas fa-fw fa-at"
+      url: "mailto:matt@bluebotpc.com"
+
+Ruby Skinner:
+  name        : "Ruby Skinner"
+  bio         : "Coolest Racecar Mom"
+  avatar      : ""
+  links:
+    - label: "Instragram"
+      icon: "fab fa-fw fa-instagram-square"
+      url: "https://instagram.com/frs_co_pilot"

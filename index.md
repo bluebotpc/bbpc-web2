@@ -1,9 +1,15 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+author_profile: true
+header:
+  overlay_image: /assets/img/main_bg.jpg
+  caption: "Location: [Lily Lake](https://maps.app.goo.gl/33LVV4H8nTBE4ezo8)"
 ---
-# Matts Static Testing Grounds
+# Dad & Husband
 
-Index Markdown moves to the top. See? :)
+Howdy folks of the internet. Welcome to my website! You will find various types of content here.
+Rants, technical docs, generalized notes, maybe I'll share some pictures along the way!
+
+> Insert my favorite quote here.
+
+This website is under development!
