@@ -4,6 +4,8 @@ title:  "Ad-Blocking on the Go using Pi-Hole and Pi-VPN in the Cloud"
 date:   2022-01-26 08:00:00 -0700
 categories: technology
 ---
+{% include video id="RJ2zoA9Y0Tk" provider="youtube" %}
+
 I do not think that I am alone when I say that I hate advertisements. I actually think that my distaste for advertisements is the major reason that I do not watch any form of traditional television whether that be from a cable company or even the free local channels that are streamed over the air. Getting away from traditional television, I also hate seeing advertisements on the internet as well. Between Google AdSense tracking you everywhere you go, and other advertising partners putting trackers on top of trackers in every single web page and mobile application is a major turnoff.
 
 That is why I think we are extremely lucky that the developers over at Pi-Hole and AdGuard are some great folks and we should all be buying them a coffee. These guys allow us to block ads by the way of DNS filtering and I have found this to be very effective. So I present you the video above and the write up below. I hope between the two resources I can help guide you on how to deploy your very own Pi-Hole and Pi-VPN instance that will give you the ability to live a mildly ad-free life and maybe even help secure and anonymize some of your online browsing habits.

@@ -4,9 +4,9 @@ title:  "Goodbye Google Domains"
 date:   2023-09-25 08:30:00 -0700
 categories: technology
 ---
-Google Domains was the first Registrar I had ever used. They had an easy to use API, near market pricing, and an overall "clean" user experience that you would expect from a Google product. However on September 7th 2023 Squarespace and Google announced that the acquisition was completed and you can no longer purchase a domain via Google.
+Google Domains was the first Registrar I had ever used. They had an easy to use API, near market pricing, and an overall "clean" user experience that you would expect from a Google product. However on [September 7th 2023](https://investors.squarespace.com/news-events-financials/investor-news/news-details/2023/Squarespace-Completes-Acquisition-of-Google-Domains-Assets/default.aspx) Squarespace and Google announced that the acquisition was completed and you can no longer purchase a domain via Google.
 
-This article from The Verge was released on June 16th and was where I originally heard the news. I do not exactly have any problems with Squarespace as a company but I do not intend on using their services. This means I would need to migrate my 5 personally owned Domains elsewhere.
+[This article from The Verge](https://www.theverge.com/2023/6/16/23763340/google-domains-sunset-sell-squarespace) was released on June 16th and was where I originally heard the news. I do not exactly have any problems with Squarespace as a company but I do not intend on using their services. This means I would need to migrate my 5 personally owned Domains elsewhere.
 
 ## Two for Cloudflare
 

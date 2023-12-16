@@ -4,6 +4,8 @@ title:  "How To Change The Hostname of a Raspberry Pi"
 date:   2022-01-10 08:00:00 -0700
 categories: raspi_pi
 ---
+{% include video id="mdS_3jzMByA" provider="youtube" %}
+
 Hello Everyone! If you prefer video formats, please go ahead and give the YouTube video above a quick watch, but if you prefer reading a "white paper" style document I'll jump right into the meat and potatoes below!
 
 While you do not need to set a hostname, they make it easier to identify individual devices on a network. Also, if you are hosting a web server that supports HTTPS, the hostname must match the SSL certificate that is being used or else it will give up an error!

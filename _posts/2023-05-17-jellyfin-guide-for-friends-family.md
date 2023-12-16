@@ -7,8 +7,8 @@ categories: technology
 Hello and welcome friends and family! I am glad that you have taken interest in my Jellyfin server or another of my home lab adventures. Below you will find all the information you should need to have an enjoyable experience watching media on your cellphone!
 
 | **Requirements**                       | **Recommendations** |
-| Install Tailscale from your App Store. | Enable 2-Factor Authentication |
-| Install Jellyfin from your App Store   | Install VLC media player |
+| Install [Tailscale](https://tailscale.com/) from your App Store. | Enable 2-Factor Authentication |
+| Install [Jellyfin](https://jellyfin.org/) from your App Store   | Install [VLC media player](https://www.videolan.org/vlc/) |
 | Create a Tailscale account.            | Enable External Video Player |
 | Accept my Tailscale Invite Link        |
 | Login to Jellyfin                      |

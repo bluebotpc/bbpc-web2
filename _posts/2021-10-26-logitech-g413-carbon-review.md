@@ -4,9 +4,9 @@ title:  "Logitech G413 Carbon - Keyboard Review"
 date:   2021-10-26 08:00:00 -0700
 categories: technology
 ---
-Disclaimer
+{% include video id="ePCL6AdOU9g" provider="youtube" %}
 
-Wait, why is there a disclaimer? Maybe its because I purchased this product with my own money? Nah, that's not it. Is it because I have gifted friends with this keyboard? No, probably not. Oh okay I remember now; I have used this keyboard far longer than I have EVER used a keyboard. This is my, "como se de se" IBM Model M.
+Disclaimer - Wait, why is there a disclaimer? Maybe its because I purchased this product with my own money? Nah, that's not it. Is it because I have gifted friends with this keyboard? No, probably not. Oh okay I remember now; I have used this keyboard far longer than I have EVER used a keyboard. This is my, "como se de se" IBM Model M.
 
 It was late 2018 and I had finally landed a role as an IT guy in a place that allowed us to bring our own "toys" to work. I had already brought in my Logitech G602 mouse, but typing on a "from the box" HP keyboard drove me bonkers. Even the US Government had better keyboards for folks to use! My wife and I took one of our weekly trips to MicroCenter and I was dead set on getting a keyboard for work, and the only requirement was that it had to be mechanical.
 

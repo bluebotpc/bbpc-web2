@@ -4,7 +4,9 @@ title:  "Managing Pi-Hole - A Guide for Beginners in 2022"
 date:   2022-09-06 08:00:00 -0700
 categories: raspi_pi
 ---
-## Video Covers
+{% include video id="X7zJ5nNUKas" provider="youtube" %}
+
+In this video I will cover....
 
 - Add Domains to the Whitelist.
 - Add Domains to the Blacklist.

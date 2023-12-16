@@ -4,9 +4,9 @@ title:  "Using A Raspberry Pi Zero To Host a VPN Server"
 date:   2021-11-13 08:00:00 -0700
 categories: raspi_pi
 ---
-**Techies that are here for the meat and potatoes, please go to the next section! :)** Thanks to countless YouTubers' and a handful of VPN Providers such as NordVPN, Private Internet Access (PIA), or Someone Else, having a VPN for personal use is all the rage these days. Now we must answer the question, what does VPN stand for? What does a VPN do? Why would I host my own VPN?
+**Techies that are here for the meat and potatoes, please go to the next section! :)** Thanks to countless YouTubers' and a handful of VPN Providers such as [NordVPN](https://nordvpn.com/cyber-site/), [Private Internet Access (PIA)](https://www.privateinternetaccess.com/), or Someone Else, having a VPN for personal use is all the rage these days. Now we must answer the question, what does VPN stand for? What does a VPN do? Why would I host my own VPN?
 
-A VPN or Virtual Private Network consists of at least two distinct parts. First is a device known as a Server. This server hosts a service for the second device, known as a Client. Together they are part of a Client/Server environment which is a core concept of modern networking.
+A VPN or Virtual Private Network consists of at least two distinct parts. First is a device known as a Server. This server hosts a service for the second device, known as a Client. Together they are part of a [Client/Server environment](https://en.wikipedia.org/wiki/Client%E2%80%93server_model) which is a core concept of modern networking.
 
 A VPN allows a user to access a network and its localized resources from just about anywhere. If you work remotely or work from home, you may connect to a VPN so that you can access internal resources such as a networked storage drive or maybe an in-office application server. A consumer however uses a VPN in a slightly different manner; Let me explain...
 
@@ -14,29 +14,29 @@ As an American citizen sitting in your house, you may be using a VPN Provider to
 
 When you connect to a VPN, your device (the client) creates a secured connection known as a handshake with a server. This handshake is an agreement to let each other know that if you suspect someone or something is sniffing the data to terminate the connection immediately. Another part of this handshake is potentially an agreement on an encryption algorithm, but the details on how encryption are a whole separate rabbit hole not meant for this document.
 
-This handshake your client and the VPN server creates also establishes whats known as a Tunnel. If you are a techie interested in networking, this is known as a Layer 2 Tunneling Protocol or L2TP for short. Now what does a Layer 2 Tunneling Protocol do? Well you may want to familiarize yourself with the OSI Model (Open Systems Interconnection Model) Understanding the OSI model is fundamental to learning how networks function. That is for another day.
+This handshake your client and the VPN server creates also establishes whats known as a Tunnel. If you are a techie interested in networking, this is known as a [Layer 2 Tunneling Protocol](https://www.ibm.com/docs/en/i/7.2?topic=concepts-layer-2-tunnel-protocol) or L2TP for short. Now what does a Layer 2 Tunneling Protocol do? Well you may want to familiarize yourself with the [OSI Model (Open Systems Interconnection Model)](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/) Understanding the OSI model is fundamental to learning how networks function. That is for another day.
 
 Again I am asking, What does a Layer 2 Protocol do? Well this uses your local network to well...bypass your local network. By creating this encrypted tunnel your data stays inside where others cannot see what travels inside the tunnel. Keep in mind, while the network cannot see what is inside this Tunnel it can at least see that the Tunnel is there.
 
 Anyways, this Tunnel forwards 100% of your data to the VPN Server. From there your data then reaches out to the rest of the World Wide Web. I bring this up so that you can keep in mind that by using a VPN Provider you are putting your trust in their hands. Trust that they will keep your information private, and trust that they are not the ones sniffing your traffic.
 
-Trust that they will keep your information private
+>Using a VPN service, is selling to a different provider.
 
 So Why Would I Host My Own VPN Server? How Can That Benefit Me?
 
-By hosting your own VPN server, you can get yourself access to your home network from anywhere you might be. One of the ways I leverage hosting my own VPN server is that I also host Pi-Hole. Pi-Hole allows me to have ad-blocking at the network level for my entire home network. Thanks to Pi VPN it also allows me to have ad-blocking on my mobile phone! I'll have a separate write up on Pi-Hole at a later date.
+By hosting your own VPN server, you can get yourself access to your home network from anywhere you might be. One of the ways I leverage hosting my own VPN server is that I also host Pi-Hole. Pi-Hole allows me to have ad-blocking at the network level for my entire home network. Thanks to [PiVPN](https://www.pivpn.io/) it also allows me to have ad-blocking on my mobile phone! I'll have a separate write up on [Pi-Hole](https://pi-hole.net/) at a later date.
 
 ## The Pi Zero Setup Process
 
-If you already know what a VPN is then this is where we start! For the rest of this document we will be examining the performance of a Raspberry Pi Zero acting as a Wireguard VPN Server running a clean installation of the 32bit Raspberry Pi OS straight from Raspberry Pi Imager v2.6 - Wireguard VPN will be used via the Pi VPN package. To speedtest the Raspberry Pi we will be using speedtest-cli which can be installed with
+If you already know what a VPN is then this is where we start! For the rest of this document we will be examining the performance of a Raspberry Pi Zero acting as a Wireguard VPN Server running a clean installation of the 32bit Raspberry Pi OS straight from Raspberry Pi Imager v2.6 - Wireguard VPN will be used via the Pi VPN package. To speedtest the Raspberry Pi we will be using [speedtest-cli](https://github.com/sivel/speedtest-cli) which can be installed with
 
 ```sudo apt install speedtest-cli```
 
-If you look to the image to the right, we can see that my network is capable of moving at least 800 megabit (Mbps) up and down. This is great as it exceeds the 802.11n wireless network interface found on the Pi Zero which is only theoretically capable of moving 600 megabit (Mbps) in either direction.
+If you look to the image to the right, we can see that my network is capable of moving at least 800 megabit (Mbps) up and down. This is great as it exceeds the [802.11n wireless network interface](https://www.electronics-notes.com/articles/connectivity/wifi-ieee-802-11/802-11n.php) found on the Pi Zero which is only theoretically capable of moving 600 megabit (Mbps) in either direction.
 
 Providing wireless to this little wireless computer is a Ubiquity UniFi AC-AP-Pro broadcasting on 802.11b/g/n on the 2.4GHz band which is what the Pi Zero needs on top of broadcasting an 802.11ac network on the 5GHz band. However the Pi Zero is not able to leverage 802.11ac.
 
-A few more notable specs of the Raspberry Pi Zero is that it is running a Broadcom BCM2835 at 1GHz with 512MB of on-board memory. It's highly likely the phone or device you are reading this on has 8x or more on-board memory.
+A few more notable specs of the [Raspberry Pi Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/) is that it is running a [Broadcom BCM2835 at 1GHz](https://www.raspberrypi.com/documentation/computers/processors.html) with 512MB of on-board memory. It's highly likely the phone or device you are reading this on has 8x or more on-board memory.
 
 ## Determining The Baseline
 

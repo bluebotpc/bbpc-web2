@@ -4,6 +4,8 @@ title:  "Razer Huntsman Mini - My First Keyboard Review"
 date:   2021-09-24 08:00:00 -0700
 categories: technology
 ---
+{% include video id="ZRTkoCynPTI" provider="youtube" %}
+
 The first gaming keyboard I can remember purchasing is a Logitech G110. It had plenty of macro keys, some backlit keys, and a switch that could disable the Windows key function. Other than that, I don't remember much about the G110. Regardless this is the keyboard that sparked my interest in "Gaming" peripherals. Only two keyboard purchases later and I found myself the owner of a MASSIVE Corsair K95 RGB with Cherry-MX Red switches.
 
 Have you Googled the K95 yet? Its massive! Which after plenty of use, drove me to wanting something a bit smaller.  This time my terrible idea was a Razer Huntsman Tournament Edition in all black rocking Razer Green switches. This keyboard eventually proved to be way to loud for even myself. So I once again returned to my Corsair K95 RGB, but still wanted something a little more compact.

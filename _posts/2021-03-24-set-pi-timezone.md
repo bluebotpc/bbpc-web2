@@ -6,7 +6,7 @@ categories: raspi_pi
 ---
 Hello everyone! In this post I will be walking you through how to update the timezone on your newly imaged Raspberry Pi. While this guide is specifically aimed at Raspberry Pi users, these commands will work in both the Ubuntu Desktop GUI and Ubuntu Server CLI as well as on many other Debian based Operating Systems. If you prefer a YouTube tutorial, check out mine below!
 
-VIDEO HERE
+{% include video id="mHVodqxJGbU" provider="youtube" %}
 
 First we want to see what our system time is, we can do this with...
 
