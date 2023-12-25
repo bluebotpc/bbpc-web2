@@ -10,13 +10,13 @@ title                    : "Matt Faulkner"
 title_separator          : "-"
 subtitle                 : "Home Lab and Garage" # site tagline that appears below site title in masthead
 name                     : "Matt Faulkner"
-description              : "Enabling Growth"
+description              : "Personal Ramblings"
 url                      : "https://www.mattfaulkner.net"
 baseurl                  : # Do Not Change <https://mmistakes.github.io/minimal-mistakes/docs/configuration/>
 repository               : GoobyFRS/matts-html
 teaser                   : /assets/img/fallback_img.jpg # path of fallback teaser image.
-logo                     : /assets/img/logo_color.png # path of logo image to display in the masthead.
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+#logo                     : /assets/img/logo_color.png # path of logo image to display in the masthead.
+#masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 260
 comments:
@@ -101,13 +101,13 @@ author:
   links:
     - label: "Email Me"
       icon: "fas fa-fw fa-at"
-      url: "mailto:matt@bluebotpc.com"
+      url: "mailto:matt@mattfaulkner.net"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/bluebotpc/"
+      url: "https://github.com/GoobyFRS/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/bluebotpc/"
+      url: "https://instagram.com/frs_pilot/"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@GoobyFRS"
