@@ -7,18 +7,11 @@ header:
 ---
 # Dad & Husband
 
-Howdy folks of the internet. Welcome to my website! I am **GoobyFRS** most everywhere else on the Interwebs. You can call me Goobs.
-Goobs is a strong online privacy advocate. I tell my friends about ProtonMail, Signal, Pi-Hole, Privacy Badger, and more!
-I think this website is super cool!
+Hello random strangers of the Internet. I am **GoobyFRS**, a huge advocate for online privacy and learning about Technology, Networking, Eningeering, and other random ramblings no one else cares to hear. This is **my** platform. :)
 
-> Insert my favorite quote here.
+> The only way to do great work is to love what you do. - Steve Jobs
 
-This website is under development! Last update on: **December 15th 2023**
-
-## Hobbies
-
-- Gaming
-- Motorsports
-- Infrastructure Technologies
+This website is under development! 
+Last update on: **December 25th 2023**
 
 ![LinodePartner](/assets/img/linodeSolutionsPartnerBadge.png)
