@@ -11,7 +11,7 @@ Hello random strangers of the Internet. I am **GoobyFRS**, a huge advocate for o
 
 > The only way to do great work is to love what you do. - Steve Jobs
 
-This website is under development! 
+This website is under development!
 Last update on: **December 25th 2023**
 
 ![LinodePartner](/assets/img/linodeSolutionsPartnerBadge.png)

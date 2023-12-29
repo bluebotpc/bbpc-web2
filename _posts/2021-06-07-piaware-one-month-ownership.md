@@ -6,7 +6,7 @@ categories: raspi_pi
 ---
 ## Summary of My One Month Experience
 
-Over the last month, I have made it up into the top 3,000 PiAware sites out of approximately 24,000 and growing! 
+Over the last month, I have made it up into the top 3,000 PiAware sites out of approximately 24,000 and growing!
 On a busy day Raspberry Pi 3B+ runs at about 35%-60% CPU utilization, but can easily spike to 100% for short periods of time during updates.
 In the coming weeks, I can see myself upgrading to a Raspberry Pi 4 - I have a strong feeling the 4x compute power & 16x Memory could make this smoother and MAYBE just maybe increase my range.
 

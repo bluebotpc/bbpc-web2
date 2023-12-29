@@ -192,8 +192,8 @@ You have....
 
 ### Great Resource Documents - Supporting Information
 
-Official Linode Guide - Securing Web Traffic Using Certbot with Apache on Debian 10 and 9
-Official Pi-Hole Documentation - Unbound on Pi-Hole
-Pi-Hole Community Forums - Pi-Hole with an Apache2 deployment
-List of Ad-lists for Pi-Hole - Firebog
-CloudFlare - What is DNS
+[Official Linode Guide - Securing Web Traffic Using Certbot with Apache on Debian 10 and 9](https://www.linode.com/docs/guides/enabling-https-using-certbot-with-apache-on-debian/)
+[Official Pi-Hole Documentation - Unbound on Pi-Hole](https://docs.pi-hole.net/guides/dns/unbound/)
+[Pi-Hole Community Forums - Pi-Hole with an Apache2 deployment](https://discourse.pi-hole.net/t/installing-pi-hole-on-existing-apache-server/43968)
+[List of Ad-lists for Pi-Hole - Firebog](https://firebog.net/)
+[CloudFlare - What is DNS](https://www.cloudflare.com/learning/dns/what-is-dns/)
