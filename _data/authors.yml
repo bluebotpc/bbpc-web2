@@ -1,17 +1,44 @@
 Matt Faulkner:
   name        : "Matt Faulkner"
-  bio         : "Small Business Owner and Senior Infrastructure Operations Technician."
+  bio         : "Co-Owner"
   avatar      : "/assets/img/profile.jpg"
   links:
     - label: "Email Me"
       icon: "fas fa-fw fa-at"
       url: "mailto:matt@bluebotpc.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/BlueBotPC"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/bluebotpc"
 
-#Ruby Skinner:
-#  name        : "Ruby Skinner"
-#  bio         : "Coolest Racecar Mom"
-#  avatar      : ""
-#  links:
-#    - label: "Instragram"
-#      icon: "fab fa-fw fa-instagram-square"
-#      url: "https://instagram.com/frs_co_pilot"
+Ruby Skinner:
+  name        : "Ruby Skinner"
+  bio         : "Co-Owner"
+  avatar      : "/assets/img/ruby_profile.jpg"
+  links:
+    - label: "Email Me"
+      icon: "fas fa-fw fa-at"
+      url: "mailto:ruby@bluebotpc.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/BlueBotPC"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/bluebotpc"
+
+Support Team:
+  name        : "Support Team"
+  bio         : "World-Class Support Team!"
+  avatar      : "/assets/img/sales-profile.jpg"
+  links:
+    - label: "Email Us"
+      icon: "fas fa-fw fa-at"
+      url: "mailto:support@bluebotpc.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/BlueBotPC"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/bluebotpc"

@@ -2,20 +2,20 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Matt Faulkner"
+title                    : "BlueBotPC"
 title_separator          : "-"
-subtitle                 : "Home Lab and Garage" # site tagline that appears below site title in masthead
+subtitle                 : "Enabling Growth in North Dakota" # site tagline that appears below site title in masthead
 name                     : "Matt Faulkner"
-description              : "Personal Ramblings"
-url                      : "https://www.mattfaulkner.net"
+description              : "IT Services Provider"
+url                      : "https://www.bluebotpc.com"
 baseurl                  : # Do Not Change <https://mmistakes.github.io/minimal-mistakes/docs/configuration/>
 repository               : GoobyFRS/matts-html
 teaser                   : /assets/img/fallback_img.jpg # path of fallback teaser image.
-#logo                     : /assets/img/logo_color.png # path of logo image to display in the masthead.
+logo                     : /assets/img/logo_color.png # path of logo image to display in the masthead.
 #masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 260
@@ -93,37 +93,23 @@ analytics:
 
 # Site Author
 author:
-  name             : "Matt Faulkner"
-  avatar           : "/assets/img/profile.jpg"
-  bio              : "Small Business Owner and Senior Infrastructure Operations Technician."
-  location         : "United States"
-  email            :
+  name        : "Support Team"
+  bio         : "World-Class Helpdesk Support"
+  avatar      : "/assets/img/support-profile.jpg"
   links:
-    - label: "Email Me"
+    - label: "Email Us"
       icon: "fas fa-fw fa-at"
-      url: "mailto:matt@mattfaulkner.net"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/GoobyFRS/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/frs_pilot/"
-    - label: "YouTube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/@GoobyFRS"
+      url: "mailto:support@bluebotpc.com"
 
 # Site Footer
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/GoobyFRS"
+      url: "https://github.com/BlueBotPC"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/frs_pilot"
-    - label: "YouTube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/@GoobyFRS"
+      url: "https://instagram.com/bluebotpc"
     - label: "Linode"
       icon: "fab fa-fw fa-linode"
       url: "https://www.linode.com/lp/refer/?r=d46f7cf236f69208c12b9ebc684046a2f8516247"
