@@ -13,7 +13,7 @@ name                     : "Matt Faulkner"
 description              : "IT Services Provider"
 url                      : "https://www.bluebotpc.com"
 baseurl                  : # Do Not Change <https://mmistakes.github.io/minimal-mistakes/docs/configuration/>
-repository               : GoobyFRS/matts-html
+repository               : GoobyFRS/bluebotpc-web2
 teaser                   : /assets/img/fallback_img.jpg # path of fallback teaser image.
 logo                     : /assets/img/logo_color.png # path of logo image to display in the masthead.
 #masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -177,7 +177,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: /blog/page:num/
 timezone: # Do not use. tz-gem not installed.
 
 # Plugins (previously gems:)
@@ -230,6 +230,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+  blanklines: true
 
 # Defaults
 defaults:
