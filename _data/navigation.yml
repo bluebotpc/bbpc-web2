@@ -1,9 +1,9 @@
 # main links
 main:
+  - title: "Why Choose Us"
+    url: https://www.bluebotpc.com/company/why-choose-us/
   - title: "Blog"
     url: https://www.bluebotpc.com/blog/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
