@@ -1,11 +1,21 @@
 ---
-layout: single
-title: "Managed Features"
+title: "Why Choose Us"
+layout: splash
 header:
-    overlay_image: "/assets/img/fallback_img.jpg"
-classes: wide
+  overlay_filter: rgba(168, 192, 226, 1.0)
+  overlay_image: ""
+  actions:
+    - label: "Contact Matt"
+      url: "https://maps.app.goo.gl/zyD7gWz46Xb3RKD16"
+  #caption: "Photo credit: [**Matt Faulkner**](https://www.mattfaulkner.net/)"
+excerpt: "Handcrafted Technology Experience"
+#classes: wide
 ---
-Customer satisfaction is at the core of everything we do. That is why we provide every customer with hassle-free...
+BlueBotPC is on a **mission** to...
+
+## Certified Technicians
+
+## Managed Hosting
 
 - Multi-Layer Firewalls with Threat Detection
 - [Managed SSL Certificates by Let's Encrypt](https://www.letsencrypt.org/)
@@ -16,7 +26,7 @@ Customer satisfaction is at the core of everything we do. That is why we provide
 
 All of this is included to ensure your business critical web servers remain available, secure, and operating at peak performance!
 
-## Data Centers
+### Data Centers
 
 Our compute hardware is operated on the [Akamai Global Cloud Network by Linode](https://www.linode.com/global-infrastructure/). This provides us with access to the most modern AMC EYPC processors in multiple geographical zones. We also leverage their highly-available Object Storage.
 
